@@ -108,11 +108,11 @@ void intersect(Ball b1, Ball b2, Ball b3) {
 
   if (count>=70) {
     if (dist(b1.x, b1.y, b2.x, b2.y)<(b1.r+b2.r) && dist(b1.x, b1.y, b3.x, b3.y)<(b1.r+b3.r) && dist(b3.x, b3.y, b2.x, b2.y)<(b2.r+b3.r)) {
-      print("kaplow! ");
+      //print("kaplow! ");
       int tempMode = mode;
       //while (mode == tempMode)
         mode = (int)random(3);
-      println("mode: "+mode);
+      //println("mode: "+mode);
       count = 0;
     }
   }
